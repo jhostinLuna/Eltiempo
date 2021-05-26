@@ -1,16 +1,23 @@
 package com.eltiempo.dir.modelo;
 
-import java.io.Serializable;
+import java.util.ArrayList;
 
-public class Tiempo implements Serializable {
+public class Tiempo {
+    String icon;
+    String main;
+    String description;
 
-    private Main main;
-
-    public Main getMain() {
+    public String getMain() {
         return main;
     }
 
-    public void setMain(Main main) {
-        this.main = main;
+    public String getDescription() {
+        return description;
     }
+
+    public String getIcon() {
+        return icon;
+    }
+
+
 }
